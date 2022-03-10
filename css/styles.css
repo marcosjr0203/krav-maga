@@ -1,0 +1,277 @@
+/* NAVBAR */
+.navbar {
+  font-family: 'Cinzel', serif;
+  padding-right: 55px;
+  width: 100%;
+  position: absolute;
+}
+
+.contact-logos {
+  padding-left: 90%;
+  position: fixed;
+
+}
+
+.face-logo{
+  padding-top: 150px;
+  width: 85px;
+  margin: 0;
+  position: absolute;
+}
+
+.insta-logo{
+  padding-top: 220px;
+  position: absolute;
+  width: 85px;
+  margin: 0;
+}
+
+.whats-logo{
+  padding-top: 290px;
+  width: 85px;
+  margin: 0;
+}
+
+/* HEADER */
+h1 {
+  font-family: 'IM Fell English', serif;
+  font-size: 2rem;
+  line-height: 1.5;
+
+}
+
+.logo {
+  margin: 3% auto;
+  width: 150px;
+  border-radius: 100%;
+  box-shadow: 1px 1px 12px red;
+  position: relative;
+  align-self: center;
+}
+
+.logo:hover {
+  box-shadow: 1px 1px 50px red;
+  width: 151px;
+}
+
+/* BODY */
+body {
+  font-family: 'IM Fell English', serif;
+  font-size: 150%;
+  background-image:url(../images/bsokm.png);
+}
+hr {
+  border-top: 20px;
+  border-style: groove;
+}
+
+.watermark {
+  position: fixed;
+  display: inline-block;
+  padding-top: 400px;
+  width: 300px;
+  opacity: 20%;
+}
+
+.watermark-field {
+  text-align: center;
+  padding-left: 50%;
+  margin: auto;
+}
+/* FEATURES */
+.features {
+  display: flex;
+  margin: auto;
+  justify-content: center;
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: 'Cinzel', serif;
+  text-shadow: 1px 1px 6px red;
+  font-size: 1.3rem;
+}
+
+#features {
+  margin: auto;
+  background-image:url(../images/bg-image.jpg);
+
+}
+
+/* CAROUSEL */
+
+.logo-nav{
+  width: 100px;
+  border-radius: 100%;
+  margin-left: 20px;
+
+}
+
+.logo-nav:hover {
+  box-shadow: 1px 1px 50px red;
+  opacity: 60%;
+}
+
+
+.photo-caro-index{
+  width: 90%;
+  min-width: 60%;
+  border-radius: 10%;
+}
+
+.carousel-inner {
+  justify-content: center;
+}
+
+.carousel {
+  display: inline-block;
+  position: relative;
+}
+
+#photos {
+  text-align: center;
+}
+
+#navigation{
+  background-image:url(../images/bg-image.jpg);
+  position: absolute;
+}
+
+/* TEXT */
+.text {
+  text-align: justify;
+  display: inline-block;
+  position: relative;
+}
+
+.text-2 {
+  text-align: justify;
+  display: inline-block;
+  position: relative;
+}
+
+.body-content {
+  padding: 50px 200px;
+  margin: auto;
+}
+
+.column-description {
+  margin: auto;
+  padding: 10px 10px 10px 0;
+}
+
+.num-col {
+  font-family: "Cinzel", serif;
+  font-size: 1.2rem;
+}
+
+/* CARDS */
+.cards {
+  text-align: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.card {
+  margin: auto;
+  width: auto;
+}
+
+.card-header {
+  font-size: 2rem;
+}
+.card-description {
+  font-size: 1.7rem;
+}
+
+.map {
+  text-align: center;
+  margin: auto;
+  justify-content:center;
+  position: relative;
+  display: inline-block;
+}
+
+.map-inner {
+  height: 500px;
+  border-radius: 15px;
+  border-style: dashed;
+  border-color: black;
+  position: relative;
+  display: inline-block;
+  padding: 0;
+}
+
+.victor {
+  display: inline-block;
+  text-align: center;
+}
+
+.victor-inner {
+  width: 25%;
+  border-radius: 15%;
+  position: relative;
+}
+#card-yellow {
+  background-color: #FFE61B;
+}
+#card-orange {
+  background-color: #F0A500;
+}
+#card-green {
+  background-color: #A1B57D;
+}
+#card-blue {
+  background-color: #5D8BF4;
+}
+#card-brown {
+  background-color: #AD8B73;
+}
+#card-black {
+  background-color: #595260;
+}
+
+/* PG2 - HISTORIA */
+h3 {
+  padding-top: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.history-content {
+  text-align: justify;
+  padding-top: 100px;
+}
+
+.history-content-inner {
+  margin: auto;
+  padding: 0 200px 0;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.history-text {
+  margin: auto;
+  position: relative;
+}
+
+.col-text-1 {
+  position: relative;
+  display: inline-block;
+}
+
+.imi2 {
+  width: 25%;
+  padding: 3%;
+  float: left;
+  position: relative;
+}
+
+.imi1 {
+  width: 25%;
+  padding: 3%;
+  float: left;
+  position: relative;
+}
